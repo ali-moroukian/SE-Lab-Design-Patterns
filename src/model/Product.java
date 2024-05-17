@@ -9,7 +9,7 @@ public class Product {
 
     private boolean isDelivered;
     private State state;
-    private int weight;
+    private double weight;
     private Strategy transferStrategy;
 
     public Product() {
@@ -42,11 +42,11 @@ public class Product {
         return this.isDelivered;
     }
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
